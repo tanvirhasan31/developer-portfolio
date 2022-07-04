@@ -1,0 +1,30 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-image: url(top-banner.png);
+    background-repeat: no-repeat;
+}
+h1{
+    font-size: 50px;
+}
+.tanvir{
+    color: orange;
+}
+section{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    padding-left: 2%;
+}
+.half-width img{
+   width: 100%;
+   padding-top: 15%;
+}
+.link-button{
+    text-decoration: none;
+    color: orange;
+    font-weight: 700;
+    padding: 10px 20px;
+    border-radius: 5%;
+    background-image: linear-gradient(orange tomato);
+}
