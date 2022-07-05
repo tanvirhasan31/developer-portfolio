@@ -6,10 +6,13 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 .tanvir{
     color: orange;
 }
-section{
+.section{
     display: flex;
 }
 .half-width{
@@ -32,4 +35,28 @@ section{
     background-image: url(dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.expariens-area{
+   background-image: url(exp-bg.png);
+   background-repeat: no-repeat;
+   background-position: left;
+}
+.expariens-item{
+    box-shadow: 10px 10px 30px gray;
+    width: 40%;
+    border-radius: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10px;
+    
+
+}
+#finish{
+    border-left: 7px solid tomato;
+}
+#baby{
+    border-left: 7px solid blue;
+}
+footer{
+    text-align: center;
 }
